@@ -2,6 +2,7 @@ import React from "react";
 import style from "./App.module.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Hero2 from "./components/Hero2/Hero2";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Platform from "./components/Platform/Platform";
@@ -10,12 +11,14 @@ import Contact from "./components/Contact/Contact";
 import data from "./Data/personalData.json";
 import Education from "./components/Education/Education";
 
+
 function App() {
 
   return (
     <div className={style.App}>
       <Navbar data={data} />
       <Hero data={data} />
+      {/* <Hero2/> */}
       <About data={data} />
       <Education data={data}/>
       <Experience data = {data} />
