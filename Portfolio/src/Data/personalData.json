@@ -179,11 +179,11 @@
       "link": "https://leetcode.com/u/Pawan83033/"
     },
     {
-      "platformId": 3,
-      "title": "HackerRank",
-      "imageSrc": "platform/hackerRank2.jpg",
+      "platformId": 4,
+      "title": "Github",
+      "imageSrc": "platform/github.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus.",
-      "link": "https://www.hackerrank.com/profile/pawan630703"
+      "link": "https://github.com/PawanKumar85"
     }
   ],
   "education": [

@@ -10,6 +10,7 @@ import Projects from "./components/Projects/Projects";
 import data from "./Data/personalData.json";
 import Education from "./components/Education/Education";
 import ContactPageOne from "./components/Contact2/Contact2"
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Projects data={data}/>
       {/* <Contact data={data} /> */}
       <ContactPageOne/>
+      <Footer/>
 
     </div>
   );
