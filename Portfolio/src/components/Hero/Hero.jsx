@@ -19,15 +19,15 @@ const Hero = ({ data }) => {
                 " Programmer",
                 "Pawan Kumar",
               ]}
-              typeSpeed={30}
+              typeSpeed={50}
               loop={true}
             />
           </h1>
         </div>
         <p className={style.desc}>{data.bio}</p>
-        <div className="flex  space-x-6">
-          <button className="btn btn-primary">Contact Me</button>
-          <button className="btn btn-primary">Download CV</button>
+        <div className="flex  space-x-7">
+          <a href="#contact" className="text-decoration-none text-white mybtn">Contact Me</a>
+          <a href="#" className="text-decoration-none text-white">Download CV</a>
         </div>
       </div>
 
